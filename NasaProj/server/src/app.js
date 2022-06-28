@@ -12,6 +12,4 @@ app.use(express.json());
 app.use(planetsRouter);
 
 
-module.exports = {
-    app,
-}
+module.exports = app;
